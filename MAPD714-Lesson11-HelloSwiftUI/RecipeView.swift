@@ -11,7 +11,7 @@ struct RecipeView: View {
         Text("\(recipe.origin)")
             .font(.subheadline)
             .foregroundColor(Color.purple)
-            .bold()
+            .italic()
         }
     }
 }
